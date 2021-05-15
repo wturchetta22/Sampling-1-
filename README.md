@@ -5,4 +5,9 @@ Here's how everything works
 4. All_Stats_Together is a quick (and I say quick meaning efficient in that you only have to press a few buttons to get all the stats for every single dataset) way to get all the stats. Would suggest looking into this and understanding before you press play as there are a couple of caveats.
 5. Final_Stats contains the statistics run on web-Stanford-txt. Couple notes on this: In order the statistics are: D-Statistics for: In degree, out degree, wcc, and scc then just numbers for: hop plot, hop plot wcc, and clustering coefficient as these "statistics" output numbers rather than lists as the first four  output lists that can be compmared using d-stastistics.
 
+Here's what we still need:
+1. Definitely need a report (table on averages, graphs showing how the D-statistics change over time, explanations, etc...) - actually will be a fair bit of work probably
+2. Maybe could run everything with a new dataset although realize this does take time
+3. Could make a video? But if we're being honest with ourselves we probably won't end up doing this
+
 Hope this all makes some sense!
