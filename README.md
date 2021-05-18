@@ -1,3 +1,9 @@
+## 
+
+
+
+## From Willie
+
 Here's how everything works
 1. The 5%, 10%, 15%, and 20% contain folders that say RN, RNE, RW, and FF (Random Node, Random Node Edge, Random Walk, and Forest Fire) which in turn hold 5 different samples for each sampling method
 2. The notebooks are self explanatory but for sake of completeness: Random_Node, Random_Walk, Random_Node_Edge, and Forest_Fire contain the sampling code
