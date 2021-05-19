@@ -23,4 +23,4 @@ Project
 
 ### Evaluating samples / calculating D-statistics
 
-1. Run `Calculate All Statistics.ipynb`, note this may take a very long time 
+1. Run `Calculate All Statistics.ipynb`, note this may take a very long time - would recommend not doing this as there are some caveats within it, but would recommend looking into
