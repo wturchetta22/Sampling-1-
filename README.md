@@ -1,18 +1,19 @@
 ## Structure
-
+```
 Project
+├── .ipynb_checkpoints
+│   └── (several notebooks for separate algorithms)  
 ├── Data
-│   └── `web-Stanford.txt.zip` # zipped version
-├── Figures
+│   └── web-Stanford.txt.zip 
 ├── Samples
-│   └── # sub-directories by sample size and algorithm  
+│   └── (sub-directories by sample size and algorithm)
 ├── Sampling Code
-│   └── # one notebook per algorithm
-├── `Calculate All Statistics.ipynb`
-├── `Final_Stats.csv`
-├── `README.md`
-└── `Report.ipynb`
-
+│   └── (one notebook per algorithm)
+├── Calculate All Statistics.ipynb
+├── Final_Stats.csv
+├── README.md
+└── Report.ipynb
+```
 ## How-to
 
 ### Creating samples
@@ -23,5 +24,9 @@ Project
 
 ### Evaluating samples / calculating D-statistics
 
-1. Run `Calculate All Statistics.ipynb`, note this may take a very long time - would recommend not doing this as there are some caveats within it, but would recommend looking into '.ipynb' checkpoints folder for detailed descriptions on the code and how everything was calculated/works.
-2. Also see report for discussion and results.
+1. Run `Calculate All Statistics.ipynb`, note this takes a very long time to run as it does all 80 (5 samples x 4 sample sizes x 4 algorithms) runs at once 
+2. Code for specific sampling algorithms is contained within the `.ipynb_checkpoints` folder, however, and there are descriptions and examples therein on how everything was calculated/works.
+
+### Final Report
+
+1. See `Report.ipynb`, note results were saved in `Final_Stats.csv` and then imported and manipulated in the Report notebook
